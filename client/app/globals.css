@@ -1,0 +1,63 @@
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+/* You can add global styles to this file, and also import other style files */
+
+@layer components {
+  .login_textfield {
+    margin-bottom: 2.5rem;
+  }
+}
+
+:root {
+  /*main colors*/
+  --primaryColor: #2999fd; /* clear blue*/
+  --secondaryColor: #0e3585; /* dark blue*/
+  --tertiaryColor: #bfe1ff; /* pale blue*/
+  --purpaleColor: #6b65f2; /* pale blue*/
+  /* status colors*/
+  --inProgressColor: #bcbdbd; /* grey*/
+  --deniedColor: #eb5757; /* red*/
+  --acceptedColor: #27ae60; /* green*/
+  --acceptedHoverColor: #1e9852; /* green*/
+  --onHoldColor: #f2994a; /* orange*/
+  --canceledColor: #f2c94c; /* yellow*/
+  /* background colors*/
+  --whiteColor: #ffffff; /* white*/
+  --backgroundLightColor: #f3f5f9; /* light grey*/
+  --backgroundDarkColor: #d9d9d9; /* grey*/
+  --backgroundFirstSpecialColor: #6b65fe; /* purple */
+  --backgroundSecondSpecialColor: #ef3054; /* amaranth*/
+  --backgroundthirdSpecialColor: #8699c1; /* pale purple */
+  /* dark mode colors*/
+  --blackColor: #000000; /* black*/
+  /* font colors*/
+  --fontMediumColor: #2c2c2c;
+  --fontLightColor: #6b6464;
+  --fontSpecialColor: #577eaa; /*blue*/
+}
+body {
+  margin: 0;
+  padding: 0;
+}
+/* Z-index alerts  */
+.swal2-container {
+  z-index: 10001;
+}
+
+.custom-button {
+  background-color: var(--primaryColor);
+  color: white;
+  border-radius: 2rem;
+  padding: 0.7rem;
+  text-transform: none;
+}
+
+.custom-button:hover {
+  background-color:  var(--primaryColor);
+  color: #fff; 
+}
+
+
+
